@@ -16,8 +16,31 @@
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
 
+.banner-principal  
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white  
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
@@ -29,3 +52,91 @@
 figcaption
   font-weight: normal
  
+.fondo01
+  background-image: url('../assets/curso/portada/fondo01.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.titulo-segundo:after 
+  border-left-color: #A3CB38
+  background-color: #e8e8e8
+.w-card-icon
+  width: min-content
+  z-index: 1
+.w-card-text
+  position: relative
+  padding-left: 50px
+  padding-right: 50px
+  left: -30px
+  top: 8px
+  width: fit-content
+.bg1
+  background-color: #C8C8C8
+  border-radius: 20px
+.bg2
+  background-color: #FEE2E2
+.bg3
+  background-color: #ECECEC
+.bg4
+  background-color: #ffff
+.bg5
+  background-color: #F6F6F6
+.bg6
+  background-color: #EDF5D7
+.bg7
+  background-color: #FEE2E2
+.bg8
+  background-color: #D5DED3
+.bg9
+  background-color: #DAEAAF
+.bg10
+  display: inline-block 
+  background-color: #ffff
+  padding: 10px 25px
+  border-radius: 50px 
+  font-weight: 700
+  margin-bottom: 15px
+.bg11
+  background-color: #ECECEC
+  border-radius: 0 120px 0px 180px
+  overflow: hidden
+ 
+.tarjeta.color-acento-botones--borde 
+  background-color: #ECECEC
+  color: #12263F
+  border: solid 4px #ECECEC
+
+.text-izq
+  text-align: left !important
+.titulo-icono 
+  display: flex
+  align-items: center
+  border-bottom: 3px solid #e57373 /* línea roja */
+  padding-bottom: 0px
+  gap: 10px
+
+.titulo-icono .icono 
+  width: 78px
+  padding-bottom: -10px !important
+.titulo-icono h3 
+  font-weight: 700
+  margin: 0
+
+.tarjeta.color-acento-botones--borde
+  background-color: #ECECEC
+  border: #ECECEC
+.tabs-a__tab 
+  background-color: #4A4A4A
+  color: white
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FCC100
+  color: #12263F !important
+.fa-angle-right
+  content: url('../assets/curso/Tema1/mata.svg')

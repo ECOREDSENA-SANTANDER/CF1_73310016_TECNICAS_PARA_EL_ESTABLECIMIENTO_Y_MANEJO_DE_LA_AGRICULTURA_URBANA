@@ -16,488 +16,675 @@ export default {
     ActividadController,
   },
   data: () => ({
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: require('@/assets/actividad/imagen5.png'),
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
-    },
     cuestionario: {
-      tema: 'Nombre del CF',
+      tema: 'Fundamentos para la siembra y establecimiento de cultivos urbanos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión del aprendiz sobre los fundamentos de la siembra, manejo de herramientas, insumos agrícolas y condiciones edafoclimáticas.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el objetivo principal de la siembra?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Decorar espacios urbanos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Establecer cultivos para su desarrollo.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Reducir el uso de herramientas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Evitar el uso de insumos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'La siembra directa se caracteriza por:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Realizarse en semilleros.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Requerir trasplante.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Sembrarse en el lugar definitivo.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Usar solo fertilizantes.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Cuál es una ventaja de la siembra en almácigos?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Mayor exposición a plagas',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Menor control del cultivo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'Mejor control de germinación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Mayor uso de semillas.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'La profundidad de siembra depende principalmente de:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El clima.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El tamaño de la semilla.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El color del sustrato.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El tipo de herramienta.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+        {
+          id: 5,
+          texto: '¿Qué ocurre si una semilla se siembra muy profunda?',
+          imagen: require('@/assets/actividad/imagen05.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Germina más rápido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejora la producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Dificulta su emergencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'No necesita agua.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 6,
+          texto: 'La densidad de siembra se refiere a:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cantidad de agua aplicada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Número de plantas por área.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Tipo de fertilizante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Tamaño del contenedor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 7,
+          texto: '¿Cuál es un beneficio de una adecuada distancia de siembra?',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mayor competencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Menor crecimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mejor aprovechamiento de recursos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Menor ventilación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 8,
+          texto: '¿Cuál es una herramienta manual?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tractor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Fertilizante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sistema de riego.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Pala.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 9,
+          texto: 'El alistamiento de herramientas incluye:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo almacenamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Limpieza y revisión.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Uso inmediato.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Compra de nuevas herramientas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 10,
+          texto: 'La desinfección de herramientas permite:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mejorar color.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evitar enfermedades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar peso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir costos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 11,
+          texto: '¿Qué es un sustrato?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Herramienta agrícola.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Tipo de semilla.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Sistema de riego.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
+              texto: 'Medio de crecimiento de la planta.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
+
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Cuál es un agro insumo?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Pala.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fertilizante.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Contenedor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 13,
+          texto: 'Una buena práctica en el uso de agro insumos es:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Aplicar en exceso.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'No leer instrucciones.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Usar dosis recomendada.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Mezclar sin control.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
+
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué factor edafo-climático corresponde al suelo?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Temperatura.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Humedad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'pH.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Viento.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
+
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'En agricultura urbana, los contenedores deben tener:',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Color específico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Drenaje adecuado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Gran tamaño siempre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso único.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 16,
+          texto: 'La línea de siembra permite:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desorganizar el cultivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar plagas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir espacio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Distribuir plantas uniformemente.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 17,
+          texto: 'La orientación de la siembra debe considerar:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El color del suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La dirección del viento únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La luz solar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El tamaño del contenedor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 18,
+          texto: '¿Cuál es un error en la siembra?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Respetar distancias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Usar sustrato adecuado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'No considerar profundidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aplicar buenas prácticas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 19,
+          texto: 'El manejo de microclimas incluye:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso de herramientas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Uso de maquinaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Compra de insumos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Control de sombra y riego.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+        },
+
+        {
+          id: 20,
+          texto: 'La relación suelo-clima-cultivo permite:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducir el uso de agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evitar el uso de semillas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Entender el desarrollo del cultivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar herramientas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre los fundamentos para la siembra y establecimiento de cultivos urbanos.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'Mensaje cuando el porcentaje de respuestas correctas es inferior al 70 %	No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

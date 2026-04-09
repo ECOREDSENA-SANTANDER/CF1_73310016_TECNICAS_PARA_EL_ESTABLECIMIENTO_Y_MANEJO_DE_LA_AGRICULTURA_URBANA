@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Fundamentos para la siembra y establecimiento de cultivos urbanos',
+    Description:
+      'El establecimiento de cultivos urbanos requiere la preparación de herramientas e insumos y la aplicación de técnicas de siembra, considerando condiciones edafoclimáticas (clima y características del suelo). Este proceso demanda eficiencia en espacios reducidos, bajo criterios técnicos, sostenibles y adaptados al entorno urbano.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,28 +32,58 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos para la preparación de la siembra',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Equipos y herramientas de siembra',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Insumos agrícolas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Agroinsumos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Fundamentos de la siembra',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Condiciones edafoclimáticas',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Establecimiento del cultivo en contenedores',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Siembra en agricultura urbana',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Línea de siembra',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Relación suelo-clima-cultivo',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -95,23 +126,107 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Agroinsumos',
+      significado:
+        'Productos utilizados para la nutrición, protección y mejoramiento de los cultivos.',
+    },
+    {
+      termino: 'Aireación',
+      significado:
+        'Proceso que permite la circulación de aire en el sustrato, favoreciendo el desarrollo radicular.',
+    },
+    {
+      termino: 'Alistamiento',
+      significado:
+        'Conjunto de acciones previas para preparar herramientas, insumos y condiciones antes de la siembra.',
+    },
+    {
+      termino: 'Contenedor',
+      significado:
+        'Recipiente utilizado en agricultura urbana para sembrar y cultivar plantas.',
+    },
+    {
+      termino: 'Densidad de siembra',
+      significado:
+        'Cantidad de plantas establecidas en un área o volumen determinado.',
+    },
+    {
+      termino: 'Desinfección',
+      significado:
+        'Proceso de eliminación de microorganismos para prevenir enfermedades en cultivos.',
+    },
+    {
+      termino: 'Distancia de siembra',
+      significado:
+        'Espacio recomendado entre plantas para su adecuado crecimiento.',
+    },
+    {
+      termino: 'Edafoclimático',
+      significado:
+        'Relativo a las condiciones del suelo y del clima que afectan el desarrollo del cultivo.',
+    },
+    {
+      termino: 'Fertilización',
+      significado:
+        'Aplicación de nutrientes para mejorar el crecimiento y producción de las plantas.',
+    },
+    {
+      termino: 'Germinación',
+      significado:
+        'Proceso mediante el cual una semilla inicia su desarrollo hasta convertirse en planta.',
+    },
+    {
+      termino: 'Herramientas agrícolas',
+      significado:
+        'Instrumentos utilizados para facilitar las labores de siembra y manejo del cultivo.',
+    },
+    {
+      termino: 'Insumos agrícolas',
+      significado:
+        'Materiales utilizados para favorecer el crecimiento y desarrollo de los cultivos.',
+    },
+    {
+      termino: 'Línea de siembra',
+      significado:
+        'Distribución organizada de plantas siguiendo un patrón definido en el terreno o contenedor.',
+    },
+    {
+      termino: 'Siembra',
+      significado:
+        'Proceso de colocar semillas o plantas en un medio adecuado para su desarrollo.',
+    },
+    {
+      termino: 'Sustrato',
+      significado:
+        'Material que reemplaza el suelo en la agricultura urbana y permite el crecimiento de las plantas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alcaldía Mayor de Bogotá. (s. f.). Cartilla técnica: Agricultura urbana. Secretaría de Gobierno.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ambientum. (2025). Guía básica de agricultura urbana: Cultiva en la ciudad. Ambientum.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lara García, E. H., Herrera Guzmán, E. G., Cepeda Valencia, J., & Ramírez Caballero, J. E. (2022). Prácticas para establecer y manejar tu huerta: Una guía para agricultoras y agricultores urbanos y periurbanos. Jardín Botánico de Bogotá José Celestino Mutis; Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Desarrollo Rural. (2018). Guía técnica para cultivos en espacios urbanos. Dirección de Innovación y Tecnología.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Agricultura urbana y periurbana. FAO.',
       link: '',
     },
   ],

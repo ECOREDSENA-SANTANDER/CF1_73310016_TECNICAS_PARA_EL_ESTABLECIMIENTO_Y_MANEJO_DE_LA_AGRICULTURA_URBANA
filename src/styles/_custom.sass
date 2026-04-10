@@ -107,12 +107,26 @@ figcaption
   background-color: #ECECEC
   border-radius: 0 120px 0px 180px
   overflow: hidden
- 
+  @media (max-width: $bp-max-md)
+    border-radius: 0 0px 0px 0px
+.bg111
+  background-color: #EDF5D7
+  border-radius: 140px 0px 180px 0px
+  overflow: hidden
+  @media (max-width: $bp-max-md)
+    border-radius: 0 0px 0px 0px
+.bg12
+  background-color: #ABBDA8
+.bg13
+  background-color: #FFF3CC
+.tabla-a.color-acento-botones thead 
+  border-color: #FEE2E2
 .tarjeta.color-acento-botones--borde 
   background-color: #ECECEC
   color: #12263F
   border: solid 4px #ECECEC
-
+.cajon.color-secundario 
+  background-color: #EDF5D7
 .text-izq
   text-align: left !important
 .titulo-icono 
@@ -121,13 +135,16 @@ figcaption
   border-bottom: 3px solid #e57373 /* línea roja */
   padding-bottom: 0px
   gap: 10px
-
+.tarjeta--boton 
+  background-color: #FFF3CC
 .titulo-icono .icono 
   width: 78px
   padding-bottom: -10px !important
 .titulo-icono h3 
   font-weight: 700
   margin: 0
+.color-secu:hover 
+  background-color: #FEE2E2 !important
 
 .tarjeta.color-acento-botones--borde
   background-color: #ECECEC
@@ -138,5 +155,45 @@ figcaption
 .tabs-a.color-acento-botones .tabs-a__tab__selected 
   background-color: #FCC100
   color: #12263F !important
-.fa-angle-right
+.fa-angle-right2
   content: url('../assets/curso/Tema1/mata.svg')
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #12263F
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #ABBDA8
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before
+    background-color: #D5DED3 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+.crd--last,
+  &::before
+    background-color: #1B3617 !important

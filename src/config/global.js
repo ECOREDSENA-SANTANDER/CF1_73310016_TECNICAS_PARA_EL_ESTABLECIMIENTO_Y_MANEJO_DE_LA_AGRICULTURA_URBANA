@@ -250,9 +250,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '--',
+          nombre: 'Andrés Javier Pacheco Wandurraga',
           cargo: 'Experto temático',
-          centro: '--',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Angélica Varón Quintero',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -260,12 +265,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },

@@ -197,7 +197,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         .row
-          .col-lg-2.col-4.mb-3
+          .col-lg-2.col-4.mb-3.col-md-3
             img(src='@/assets/curso/Tema2/img11.svg', alt='Texto que describa la imagen')
           .col-lg-10
             p La línea de siembra es una técnica que consiste en la distribución organizada y planificada de las plantas dentro del espacio de cultivo, ya sea en suelo o en contenedores. Su correcta implementación permite optimizar el uso del área disponible, mejorar la exposición a la luz, facilitar las labores de manejo y aumentar la productividad del sistema agrícola.
@@ -206,13 +206,13 @@
       .col-lg-5
         img(src='@/assets/curso/Tema2/img10.png', alt='Texto que describa la imagen')
 
-    TabsC.color-acento-botones
+    TabsC.color-primario.mb-3
       .py-3.py-md-4(titulo="Técnicas de trazado")
         .row
-          .col-md-4
+          .col-md-4.mb-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/Tema2/img12.png', alt='Texto que describa la imagen')
-          .col-md-8.mb-4.mb-md-0
+          .col-md-12.mb-4.mb-md-0.col-lg-8
             p El trazado de la línea de siembra es el proceso mediante el cual se define la ubicación exacta donde se establecerán las plantas. Existen varias técnicas que facilitan este proceso con precisión.
             ul.lista-ul
               li.d-flex
@@ -229,10 +229,10 @@
                 p.mb-0 #[b Marcación previa:] se realiza antes de la siembra para delimitar puntos específicos donde se ubicarán las semillas o plántulas. Este método es especialmente útil en contenedores y espacios pequeños.
       .py-3.py-md-4(titulo="Técnicas de marcación")
         .row
-          .col-md-4
+          .col-md-4.mb-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/Tema2/img13.png', alt='Texto que describa la imagen')
-          .col-md-8.mb-4.mb-md-0
+          .col-lg-8.mb-4.mb-md-0
             p Las técnicas de marcación complementan el trazado de líneas y permiten delimitar con precisión los puntos específicos donde se ubicarán las semillas o plántulas. Este método es especialmente útil en contenedores y espacios pequeños donde cada centímetro cuenta. Una marcación previa evita errores durante la siembra y asegura que las plantas se establezcan en las ubicaciones exactas planeadas.
             ul.lista-ul
               li.d-flex
@@ -246,10 +246,10 @@
                 p.mb-0 #[b Moldes o plantillas:] dispositivos que permiten marcar múltiples puntos simultáneamente. Permite mantener distancias adecuadas y uniformes entre plantas.
       .py-3.py-md-4(titulo="Criterios de orientación")
         .row
-          .col-md-4
+          .col-md-4.mb-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/Tema2/img14.png', alt='Texto que describa la imagen')
-          .col-md-8.mb-4.mb-md-0
+          .col-lg-8.mb-4.mb-md-0
             p La orientación de la línea de siembra influye directamente en el crecimiento y desarrollo de las plantas. Dos factores son críticos: la dirección de la luz solar y la ventilación.
             h5 Dirección de la luz solar
             p La luz es uno de los factores más importantes para la fotosíntesis y el crecimiento vegetal. Una orientación adecuada de las líneas de siembra asegura que todas las plantas reciban luz suficiente durante el día.
@@ -267,10 +267,10 @@
       
       .py-3.py-md-4(titulo="Ventilación")
         .row
-          .col-md-4
+          .col-md-4.mb-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/Tema2/img15.png', alt='Texto que describa la imagen')
-          .col-md-8.mb-4.mb-md-0
+          .col-lg-8.mb-4.mb-md-0
             p Una adecuada circulación de aire es fundamental para la salud del cultivo. Sin ventilación suficiente, se acumula humedad excesiva que favorece enfermedades fúngicas y debilita las plantas. Una adecuada ventilación:
             ul.lista-ul
               li.d-flex
@@ -298,11 +298,11 @@
       h2 2.3 Relación suelo-clima-cultivo 
        
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3
         img(src='@/assets/curso/Tema2/img16.png', alt='Texto que describa la imagen')
       .col-lg-7
         .row
-          .col-lg-2
+          .col-lg-2.col-4.col-md-3.mb-3
             img(src='@/assets/curso/Tema2/img17.svg', alt='Texto que describa la imagen')
           .col-lg-10
             p La relación suelo-clima-cultivo es uno de los principios fundamentales de la producción agrícola, ya que el desarrollo, crecimiento y productividad de las plantas dependen de la interacción dinámica entre estos tres factores. Comprender esta relación permite tomar decisiones técnicas acertadas para garantizar el establecimiento exitoso de los cultivos.

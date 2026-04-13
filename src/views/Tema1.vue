@@ -35,7 +35,7 @@
   
       TabsA.color-acento-botones(data-aos="zoom-in-left").mb-4
         .tarjeta.color-acento-botones--borde.p-4(titulo="Herramientas manuales")
-          p son las más utilizadas en agricultura urbana debido a su facilidad de manejo, bajo costo y adaptabilidad. 
+          p Son las más utilizadas en agricultura urbana debido a su facilidad de manejo, bajo costo y adaptabilidad. 
           .titulo-sexto.color-secundario(data-aos='fade-right')
             h5 Tabla 1.
             span Herramientas manuales de siembra

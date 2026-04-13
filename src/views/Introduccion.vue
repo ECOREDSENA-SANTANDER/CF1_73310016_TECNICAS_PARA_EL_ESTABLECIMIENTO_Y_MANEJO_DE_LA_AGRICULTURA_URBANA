@@ -10,7 +10,7 @@
     
     .fondo01
       .row.justify-content-center.align-items-center.mb-5.p-4
-        .col-lg-1
+        .col-lg-1.col-md-3.col-4.mb-3
           img(src='@/assets/curso/portada/img01.svg', alt='')
         .col-lg-10
           p La agricultura ha sido históricamente una actividad esencial para la subsistencia humana. Sin embargo, el crecimiento acelerado de las ciudades y la reducción de espacios rurales han generado la necesidad de implementar nuevas estrategias productivas. 

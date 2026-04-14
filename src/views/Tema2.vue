@@ -12,7 +12,7 @@
         img(src="@/assets/curso/Tema2/img01.png")
 
     p El establecimiento del cultivo en contenedores representa una de las prácticas más utilizadas en la agricultura urbana, permitiendo la producción de alimentos en espacios reducidos y en condiciones controladas. Esta técnica facilita el aprovechamiento de áreas como terrazas, patios, balcones y azoteas, adaptando los sistemas productivos a entornos urbanos con limitaciones de suelo.
-
+    separador
     #t_2_1.titulo-segundo.mb-4(data-aos="zoom-in-left")
       h2 2.1 Siembra en agricultura urbana
     
@@ -174,12 +174,12 @@
           p Se refiere a la cantidad de plantas por contenedor. Esta decisión debe considerar el tamaño del recipiente, el tipo de cultivo y el sistema de siembra. Una densidad inadecuada genera competencia excesiva por nutrientes, luz y espacio, resultando en plantas débiles y bajo rendimiento.
           p Ejemplos de densidad según contenedor:
           ul.lista-ul
-            li.d-flex
+            li.d-flex.align-items-start
               i.fas.fa-angle-right2
               p.mb-0 Una matera pequeña: 1 planta de tomate (requiere espacio y nutrientes abundantes). 
-            li.d-flex
+            li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              p Una caja grande: varias plantas de lechuga (cultivo compacto que permite mayor densidad).
+              p.mb-0 Una caja grande: varias plantas de lechuga (cultivo compacto que permite mayor densidad).
         .col-md-6
           figure
             img(src='@/assets/curso/Tema2/img08.png', alt='Texto que describa la imagen')
@@ -190,7 +190,7 @@
         .col-md-6
           figure
             img(src='@/assets/curso/Tema2/img09.png', alt='Texto que describa la imagen')
-
+    separador
     #t_2_2.titulo-segundo.mb-4(data-aos="zoom-in-left")
       h2 2.2 Línea de siembra
 
@@ -215,16 +215,16 @@
           .col-md-12.mb-4.mb-md-0.col-lg-8
             p El trazado de la línea de siembra es el proceso mediante el cual se define la ubicación exacta donde se establecerán las plantas. Existen varias técnicas que facilitan este proceso con precisión.
             ul.lista-ul
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Uso de cuerdas o reglas:] consiste en utilizar elementos de medición para garantizar líneas rectas y uniformes. Esta técnica es simple pero efectiva para mantener orden en el cultivo.
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Procedimiento paso a paso:] definir el área de siembra según el espacio disponible, colocar una cuerda tensa o regla sobre el sustrato como referencia, marcar la línea siguiendo la guía (se puede usar cal o marcador) y realizar la siembra sobre la marca establecida.
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Ventajas de esta técnica:] esta técnica proporciona mayor precisión en la ubicación de plantas, garantiza uniformidad en la distribución espacial, y permite un mejor aprovechamiento del espacio disponible. Cultivos ordenados facilitan también el monitoreo de plagas, enfermedades y labores de cosecha.
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Marcación previa:] se realiza antes de la siembra para delimitar puntos específicos donde se ubicarán las semillas o plántulas. Este método es especialmente útil en contenedores y espacios pequeños.
       .py-3.py-md-4(titulo="Técnicas de marcación")
@@ -235,13 +235,13 @@
           .col-lg-8.mb-4.mb-md-0
             p Las técnicas de marcación complementan el trazado de líneas y permiten delimitar con precisión los puntos específicos donde se ubicarán las semillas o plántulas. Este método es especialmente útil en contenedores y espacios pequeños donde cada centímetro cuenta. Una marcación previa evita errores durante la siembra y asegura que las plantas se establezcan en las ubicaciones exactas planeadas.
             ul.lista-ul
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Uso de estacas o palillos:] se clavan en el sustrato para marcar el exacto donde irá cada semilla o plántula. Evita errores en la ubicación y es rápido de implementar.  
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Marcadores de profundidad:] herramientas especiales que indican la profundidad correcta según el cultivo. Facilita el trabajo y reduce variabilidad. 
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Moldes o plantillas:] dispositivos que permiten marcar múltiples puntos simultáneamente. Permite mantener distancias adecuadas y uniformes entre plantas.
       .py-3.py-md-4(titulo="Criterios de orientación")
@@ -255,13 +255,13 @@
             p La luz es uno de los factores más importantes para la fotosíntesis y el crecimiento vegetal. Una orientación adecuada de las líneas de siembra asegura que todas las plantas reciban luz suficiente durante el día.
             h5 Recomendaciones prácticas
             ul.lista-ul
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Orientar las líneas de siembra en dirección norte-sur:] esta orientación permite una distribución más uniforme de la luz a lo largo del día. Las plantas reciben iluminación tanto por la mañana como por la tarde, mejorando el crecimiento y la producción.  
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Evitar sombras entre plantas:] ubicar plantas más pequeñas en la parte frontal y cultivos más altos en la parte posterior. Esto reduce la competencia por luz y previene que unas plantas sombreen a otras.  
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Ubicar cultivos más altos en la parte posterior:] cultivos como tomate o maíz requieren más espacio y deben estar donde no causen sombra a plantas vecinas. Esto favorece la producción total del sistema.
       
@@ -273,27 +273,27 @@
           .col-lg-8.mb-4.mb-md-0
             p Una adecuada circulación de aire es fundamental para la salud del cultivo. Sin ventilación suficiente, se acumula humedad excesiva que favorece enfermedades fúngicas y debilita las plantas. Una adecuada ventilación:
             ul.lista-ul
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Reduce la humedad excesiva:] una circulación de aire constante evita la acumulación de agua en las hojas y el sustrato, previniendo pudrición y enfermedades.
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Disminuye la aparición de enfermedades:] el flujo de aire evita que se formen microclimas húmedos que favorecen hongos patógenos como mildiu y oídio.  
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Fortalece las plantas:] el movimiento del aire estimula el engrosamiento del tallo y desarrollo de plantas más robustas y resistentes.
             h5 Recomendaciones para mejorar ventilación
             ul.lista-ul
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Evitar espacios cerrados sin ventilación:] en balcones o terrazas, asegurar que el aire circule libremente alrededor de los cultivos.  
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Mantener distancias adecuadas entre plantas:] no agrupar demasiado los recipientes o cultivos. Dejar espacio entre líneas facilita la circulación del aire.  
-              li.d-flex
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Ubicar los cultivos en lugares aireados:] preferentemente en espacios con brisa natural o donde el aire pueda fluir constantemente. Evitar rincones cerrados o espacios muy protegidos.
-
+    separador
     #t_2_3.titulo-segundo.mb-4(data-aos="zoom-in-left")
       h2 2.3 Relación suelo-clima-cultivo 
        
@@ -302,7 +302,7 @@
         img(src='@/assets/curso/Tema2/img16.png', alt='Texto que describa la imagen')
       .col-lg-7
         .row
-          .col-lg-2.col-4.col-md-3.mb-3
+          .col-lg-2.col-4.col-md-3.mb-3.d-none.d-lg-block
             img(src='@/assets/curso/Tema2/img17.svg', alt='Texto que describa la imagen')
           .col-lg-10
             p La relación suelo-clima-cultivo es uno de los principios fundamentales de la producción agrícola, ya que el desarrollo, crecimiento y productividad de las plantas dependen de la interacción dinámica entre estos tres factores. Comprender esta relación permite tomar decisiones técnicas acertadas para garantizar el establecimiento exitoso de los cultivos.
@@ -336,6 +336,24 @@
         .col-lg-12
           .tarjeta.fondosly.p-4
             SlyderA(tipo="b")
+              .row
+                .col-md-12.mb-4.mb-md-0
+                  h5 Control de sombra
+                  p El control de sombra consiste en regular la radiación solar que reciben los cultivos, evitando tanto el exceso como la deficiencia de luz. Ambas situaciones son perjudiciales, pero de formas diferentes.
+                .col-lg-6.mb-3
+                  .tarjeta--boton2.p-4
+                    h5 ❌ Problemas por exceso de luz
+                    p El exceso de radiación solar causa estrés térmico por aumento excesivo de temperatura en hojas y tallos, deshidratación por pérdida rápida de agua por transpiración, y quemaduras en hojas por muerte de tejidos expuestos a radiación intensa. Estos problemas se presentan especialmente en zonas urbanas con reflexión de luz en superficies claras como concreto y vidrio.
+
+                .col-lg-6.mb-3
+                  .tarjeta--boton2.p-4
+                    h5 ❌ Problemas por déficit de luz
+                    p El déficit de luz causa crecimiento débil con etiolación donde las plantas se alargan y debilitan buscando luz, baja producción por fotosíntesis insuficiente, y desarrollo inadecuado sin estructura robusta. Estos problemas ocurren en espacios urbanos sombreados por edificios, árboles o estructuras permanentes.
+                .col-lg-12.mb-3
+                  .tarjeta--boton3.p-4
+                    h5 ✓ Métodos de control de sombra
+                    p Existen varias opciones para controlar la cantidad de luz que reciben los cultivos. Las mallas de sombreo reducen la radiación solar entre un 30 % y 80 % según su densidad y son ajustables y reutilizables, permitiendo control flexible según la estación y el cultivo. Los techos o cubiertas utilizan plásticos, polisombra o materiales reciclados para crear espacios semicontrolados que protegen de exceso de radiación mientras permiten ventilación. La ubicación estratégica consiste en colocar cultivos en zonas con sombra parcial natural como paredes o árboles grandes, siendo la opción más económica, pero menos flexible.
+              
               .row
                 .col-md-12.mb-4.mb-md-0
                   h5 Manejo del riego

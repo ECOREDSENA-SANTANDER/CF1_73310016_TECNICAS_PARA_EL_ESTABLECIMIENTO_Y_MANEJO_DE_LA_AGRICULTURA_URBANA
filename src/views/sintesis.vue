@@ -7,7 +7,7 @@
     p Finalmente, este componente formativo desarrolla competencias técnicas que permiten al aprendiz planificar, ejecutar y evaluar procesos de siembra en contextos urbanos, fortaleciendo su capacidad para implementar sistemas productivos sostenibles. De esta manera, se contribuye a la producción de alimentos en espacios urbanos, el aprovechamiento eficiente de recursos disponibles y la adopción de prácticas agrícolas responsables adaptadas a las dinámicas actuales del territorio.
  
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-11.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
       .col-auto

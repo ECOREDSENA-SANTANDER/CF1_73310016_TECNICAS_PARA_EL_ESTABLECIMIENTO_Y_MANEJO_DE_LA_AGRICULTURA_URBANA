@@ -74,7 +74,6 @@ figcaption
     margin-inline: -3rem  
     background-size: cover 
   @media screen and (max-width: 767px)
-    margin-inline: -1.4rem  
     background-size: cover 
 .fondosly
   background-image: url('../assets/curso/Tema2/fondosly.png')
@@ -95,7 +94,8 @@ figcaption
   width: 15px
   height: 15px
   background-color: #ABBDA8
-
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li
+  margin-bottom: 0px
 
 .titulo-segundo:after 
   border-left-color: #A3CB38
@@ -154,6 +154,12 @@ figcaption
   background-color: #FFF3CC
 .bg14
   background-color: #4A4A4A
+.bg66
+  background-color: #EDF5D7
+  border-radius: 20px
+.bg77
+  background-color: #FEE2E2
+  border-radius: 20px
 .tabla-a.color-acento-botones thead 
   border-color: #FEE2E2
 .tarjeta.color-acento-botones--borde 
@@ -205,7 +211,6 @@ figcaption
   content: url('../assets/curso/Tema1/mata.svg')
   vertical-align: top !important
 .tabs-a__tab   
-
   display: block
   width: 100%
   text-align: left
@@ -213,9 +218,9 @@ figcaption
   border-radius: 5px
   line-height: 1.2em
   &__text
-    overflow: auto
-    text-overflow: initial
-    text-wrap: auto
+    overflow: hidden
+    text-overflow: ellipsis 
+    white-space: normal 
 
 .tabs-c.color-primario .tabs-c__tab--active 
   background-color: white

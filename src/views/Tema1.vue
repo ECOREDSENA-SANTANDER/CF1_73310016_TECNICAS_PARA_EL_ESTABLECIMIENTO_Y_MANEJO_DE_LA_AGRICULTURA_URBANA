@@ -12,12 +12,12 @@
           img(src='@/assets/curso/Tema1/img01.png', alt='')
         .col-lg-7
           .row.justify-content-center
-            .col-lg-2.col-4.mb-3.col-md-3
+            .col-lg-2.col-4.mb-3.col-md-3.d-none.d-lg-block
               img(src='@/assets/curso/Tema1/img01.svg', alt='')
             .col-lg-10
               p La preparación de la siembra constituye una etapa esencial en el establecimiento de cualquier sistema productivo agrícola, ya que de ella dependen en gran medida la germinación, el desarrollo inicial de las plantas y el rendimiento del cultivo. Este proceso implica la adecuada selección y alistamiento de herramientas, insumos y condiciones del entorno, bajo criterios técnicos que garanticen eficiencia y sostenibilidad.
           p En el contexto de la agricultura urbana, donde los espacios son limitados y las condiciones del medio pueden variar significativamente, la preparación de la siembra adquiere una mayor relevancia. El uso de contenedores, sustratos artificiales y recursos controlados exige una planificación cuidadosa y un manejo preciso de cada uno de los elementos involucrados en el proceso productivo.
-  
+      separador
       #t_1_1.titulo-segundo.mb-4(data-aos="zoom-in-left")
           h2 1.1 Equipos y herramientas de siembra
       p Son instrumentos utilizados para facilitar las labores agrícolas, especialmente en la preparación del terreno y establecimiento del cultivo.
@@ -62,52 +62,51 @@
                   td 
                     img(src="@/assets/curso/Tema1/palin.svg" alt="Palín" style="width:90px; margin-right:8px;")
                   td Útil para trabajos de precisión en espacios pequeños.
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-6.mb-4
-                .tarjeta--boton.bg6.p-4
-                  .row.justify-content-center.mb-3
-                    .col-12.h-100.w-100
-                      ul.lista-ul
-                        li
-                          i.fas.fa-angle-right2
-                          | #[b Ventajas]
-                        li
-                          i.mb-0
-                          | Bajo costo.
-                        li
-                          i.mb-0
-                          | Fácil transporte.
-                        li
-                          i.mb-0
-                          | No requieren energía.
-              .col-lg-6
-                .tarjeta--boton.bg7.p-4.w-100.h-100
-                  .row.justify-content-center.mb-3
-                    .col-12
-                      ul.lista-ul
-                        li
-                          i.fas.fa-angle-right2
-                          | #[b Limitaciones]
-                        li
-                          i.mb-0
-                          | Mayor esfuerzo físico.
-                        li
-                          i.mb-0
-                          | Menor rendimiento en grandes áreas. 
-                        li
-                          i.mb-0
-                          | 
+          .row.justify-content-center.mb-5.align-items-stretch
+            .col-lg-6.mb-4.d-flex
+              .tarjeta--boto.bg66.p-4.w-100.d-flex.flex-column
+                .row.justify-content-center.mb-3
+                  .col-12
+                    ul.lista-ul
+                      li
+                        i.fas.fa-angle-right2
+                        | #[b Ventajas]
+                      li
+                        i.mb-0
+                        | Bajo costo.
+                      li
+                        i.mb-0
+                        | Fácil transporte.
+                      li
+                        i.mb-0
+                        | No requieren energía.
+
+            .col-lg-6.mb-4.d-flex
+              .tarjeta--boto.bg77.p-4.w-100.d-flex.flex-column
+                .row.justify-content-center.mb-3
+                  .col-12
+                    ul.lista-ul
+                      li
+                        i.fas.fa-angle-right2
+                        | #[b Limitaciones]
+                      li
+                        i.mb-0
+                        | Mayor esfuerzo físico.
+                      li
+                        i.mb-0
+                        | Menor rendimiento en grandes áreas.
+                    
                  
 
         .tarjeta.color-acento-botones--borde.p-4(titulo="Herramientas de precisión")(data-aos="zoom-in-left")
           .row.justify-content-center.align-items-center.p-4
-            .col-lg-2
+            .col-lg-2.col-6.mb-3.col-md-4
               img(src='@/assets/curso/Tema1/img03.svg', alt='')
             .col-lg-10
               p Permiten realizar siembras más uniformes y controladas, como los sembradores manuales de semillas pequeñas, dosificadores, marcadores de profundidad. Además, estas herramientas garantizan uniformidad en la germinación, reducen desperdicio de semillas y mejoran la eficiencia del cultivo.
         .tarjeta.color-acento-botones--borde.p-4(titulo="Equipos de riego básico")(data-aos="zoom-in-left")
           .row.justify-content-center.align-items-center.p-4
-            .col-lg-2
+            .col-lg-2.col-6.mb-3.col-md-4
               img(src='@/assets/curso/Tema1/img04.svg', alt='')
             .col-lg-10
               p Son esenciales para garantizar la disponibilidad de agua durante y después de la siembra, como la regadera manual, el sistema de riego por goteo y los pulverizadores. La función de estos equipos es humedecer el sustrato, mantener condiciones óptimas de germinación y aplicar agroinsumos líquidos.        
@@ -125,7 +124,7 @@
   
         .col-lg-7
           .row.justify-content-center
-            .col-lg-2.col-4.mb-3.col-md-3
+            .col-lg-2.col-4.mb-3.col-md-3.d-none.d-lg-block
               img(src='@/assets/curso/Tema1/img05.svg', alt='')
             .col-lg-10
               p Antes de utilizar cualquier herramienta o equipo, es fundamental prepararlos adecuadamente. El alistamiento de herramientas no es simplemente limpiar; es un proceso técnico que garantiza que cada instrumento esté en condiciones óptimas para su uso. Un alistamiento deficiente puede comprometer la calidad de la siembra, favorecer la propagación de enfermedades en los cultivos y exponer al operario a riesgos innecesarios. El proceso de alistamiento comprende tres etapas secuenciales: la limpieza previa que elimina contaminantes, la revisión del estado para identificar daños, y la desinfección para prevenir enfermedades fitosanitarias.
@@ -237,16 +236,17 @@
         .col-lg-8
           p El mantenimiento preventivo de herramientas y equipos es una inversión directa en la sostenibilidad económica y operativa del sistema productivo. Herramientas bien mantenidas funcionan más eficientemente, duran más tiempo y representan un costo total menor a largo plazo. Además, el mantenimiento adecuado garantiza que los equipos sean seguros de usar y que no se conviertan en vectores de transmisión de enfermedades entre cultivos. El mantenimiento de herramientas de siembra se estructura en dos actividades clave que deben realizarse de manera periódica: la limpieza después de cada uso, que es la base del cuidado preventivo, y la lubricación de partes móviles, que preserva la funcionalidad y prolonga la vida útil del equipo.
           ul.lista-ul.bg7.p-4
-            li
+            li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              | #[b Limpieza después de uso:] la limpieza es la primera y más importante actividad de mantenimiento, ya que evita la acumulación de residuos que pueden deteriorar las herramientas. Consiste en retirar restos de tierra, raíces o materia orgánica con cepillo o espátula, lavar con agua si es necesario y secar completamente con un paño limpio o al aire. Esta actividad es importante porque previene la oxidación, evita la proliferación de microorganismos y reduce la transmisión de enfermedades entre cultivos. Se recomienda no almacenar herramientas húmedas, realizar limpieza inmediatamente después de su uso y prestar especial atención a herramientas de corte.
+              p #[b Limpieza después de uso:] la limpieza es la primera y más importante actividad de mantenimiento, ya que evita la acumulación de residuos que pueden deteriorar las herramientas. Consiste en retirar restos de tierra, raíces o materia orgánica con cepillo o espátula, lavar con agua si es necesario y secar completamente con un paño limpio o al aire. Esta actividad es importante porque previene la oxidación, evita la proliferación de microorganismos y reduce la transmisión de enfermedades entre cultivos. Se recomienda no almacenar herramientas húmedas, realizar limpieza inmediatamente después de su uso y prestar especial atención a herramientas de corte.
           ul.lista-ul.bg6.p-4
-            li
+            li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              | #[b Lubricación:] la lubricación consiste en aplicar aceites o grasas en las partes metálicas o móviles para reducir la fricción y el desgaste, a elementos como articulaciones, bisagras, superficies metálicas expuestas. Se debe proceder limpiando previamente la herramienta, luego aplicar una capa ligera de aceite y distribuir uniformemente. La importancia de esta actividad radica en que evita la corrosión, mejora el funcionamiento y reduce el esfuerzo en su uso. La frecuencia de lubricación debe ser después de la limpieza (según uso) y antes de almacenamiento prolongado.
+              p #[b Lubricación:] la lubricación consiste en aplicar aceites o grasas en las partes metálicas o móviles para reducir la fricción y el desgaste, a elementos como articulaciones, bisagras, superficies metálicas expuestas. Se debe proceder limpiando previamente la herramienta, luego aplicar una capa ligera de aceite y distribuir uniformemente. La importancia de esta actividad radica en que evita la corrosión, mejora el funcionamiento y reduce el esfuerzo en su uso. La frecuencia de lubricación debe ser después de la limpieza (según uso) y antes de almacenamiento prolongado.
  
         .col-lg-4.col-6.col-md-5
           img(src="@/assets/curso/Tema1/img10.png")
+      separador
       #t_1_2.titulo-segundo.mb-4(data-aos="zoom-in-left")
           h2 1.2 Insumos agrícolas
       
@@ -269,7 +269,7 @@
           img(src="@/assets/curso/Tema1/img12.png")
         .col-lg-7
           .row.justify-content-center
-            .col-lg-2.col-4.mb-3.col-md-3
+            .col-lg-2.col-4.mb-3.col-md-3.d-none.d-lg-block
               img(src="@/assets/curso/Tema1/img13.svg")
             .col-lg-10
               p En agricultura urbana existen tres categorías principales de insumos: los sustratos que reemplazan el suelo natural, los fertilizantes que aportan nutrientes esenciales, y las semillas que son la base del cultivo. Cada una de estas categorías cumple funciones específicas y debe seleccionarse según las necesidades del sistema productivo.
@@ -323,7 +323,7 @@
                 li
                   i.fas.fa-angle-right2
                   | #[b Fertilizantes]
-              p son sustancias que aportan nutrientes esenciales para el desarrollo de las plantas. Se clasifican en tres tipos principales:
+              p Son sustancias que aportan nutrientes esenciales para el desarrollo de las plantas. Se clasifican en tres tipos principales:
       TabsA.color-acento-botones(data-aos="zoom-in-left").mb-4
           .tarjeta.color-acento-botones--borde.p-4(titulo="Fertilizantes orgánicos")
             .row.justify-content-center.align-items-center.p-4
@@ -332,11 +332,11 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Fertilizantes inorgánicos (químicos)")
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p son productos elaborados industrialmente que aportan nitrógeno (N), fósforo (P) y potasio (K). Ofrecen rápida disponibilidad y alta concentración de nutrientes.
+                p Son productos elaborados industrialmente que aportan nitrógeno (N), fósforo (P) y potasio (K). Ofrecen rápida disponibilidad y alta concentración de nutrientes.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Biofertilizantes")
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p son productos basados en microorganismos benéficos que mejoran la absorción de nutrientes.
+                p Son productos basados en microorganismos benéficos que mejoran la absorción de nutrientes.
         
       .fondo01(data-aos="zoom-in-left")
         .row.mb-5.p-4.justify-content-center
@@ -423,7 +423,7 @@
           img(src="@/assets/curso/Tema1/img17.svg")
         .col-lg-11
           p Los insumos agrícolas cumplen tres funciones fundamentales en el sistema productivo: aportar nutrientes esenciales para el crecimiento vegetal, mejorar las condiciones físicas y químicas del sustrato o suelo, y facilitar los procesos de germinación y desarrollo inicial de las plantas. Sin insumos de calidad y adecuadamente seleccionados, no es posible garantizar la productividad ni la sostenibilidad del cultivo en agricultura urbana.
-  
+      separador
       #t_1_3.titulo-segundo.mb-4(data-aos="zoom-in-left")
         h2 1.3 Agroinsumos
   
@@ -440,9 +440,9 @@
         .row.mb-5.p-4.justify-content-center
           .col-lg-11
             ul.lista-ul
-              li
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                | #[b Agroinsumos orgánicos:] son aquellos provenientes de fuentes naturales, sin procesos químicos industriales, que contribuyen a mejorar la fertilidad del sustrato y la salud del cultivo. Los principales tipos incluyen compost, humus de lombriz, bocashi (abono fermentado) y extractos vegetales. Se caracterizan por una liberación lenta de nutrientes, mejoran la estructura del sustrato y favorecen la actividad microbiana.
+                p.mb-0 #[b Agroinsumos orgánicos:] son aquellos provenientes de fuentes naturales, sin procesos químicos industriales, que contribuyen a mejorar la fertilidad del sustrato y la salud del cultivo. Los principales tipos incluyen compost, humus de lombriz, bocashi (abono fermentado) y extractos vegetales. Se caracterizan por una liberación lenta de nutrientes, mejoran la estructura del sustrato y favorecen la actividad microbiana.
       .titulo-sexto.color-secundario(data-aos='fade-right')
         h5 Tabla 4.
         span Ventajas y limitaciones de agroinsumos orgánicos
@@ -466,9 +466,9 @@
         .row.mb-5.p-4.justify-content-center
           .col-lg-11
             ul.lista-ul
-              li
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                | #[b Agroinsumos químicos (fertilizantes sintéticos):] son productos elaborados industrialmente para suministrar nutrientes o controlar plagas y enfermedades. Los principales tipos incluyen fertilizantes con macronutrientes primarios (Nitrógeno, Fósforo y Potasio), insecticidas y fungicidas. Se caracterizan por una alta concentración de nutrientes, una acción rápida y fácil dosificación.
+                p.mb-0 #[b Agroinsumos químicos (fertilizantes sintéticos):] son productos elaborados industrialmente para suministrar nutrientes o controlar plagas y enfermedades. Los principales tipos incluyen fertilizantes con macronutrientes primarios (Nitrógeno, Fósforo y Potasio), insecticidas y fungicidas. Se caracterizan por una alta concentración de nutrientes, una acción rápida y fácil dosificación.
   
       .titulo-sexto.color-secundario(data-aos='fade-right')
         h5 Tabla 5.
@@ -494,9 +494,9 @@
         .row.mb-5.p-4.justify-content-center
           .col-lg-11
             ul.lista-ul
-              li
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                | #[b Agroinsumos biológicos (biofertilizantes):] son productos basados en microorganismos o sustancias naturales que favorecen el crecimiento y protección de las plantas. Los principales tipos incluyen biofertilizantes con bacterias fijadoras de nitrógeno, hongos benéficos como Trichoderma, y controladores biológicos. Se caracterizan por su interacción con procesos naturales, mejoran la absorción de nutrientes y controlan patógenos de forma natural.
+                p.mb-0 #[b Agroinsumos biológicos (biofertilizantes):] son productos basados en microorganismos o sustancias naturales que favorecen el crecimiento y protección de las plantas. Los principales tipos incluyen biofertilizantes con bacterias fijadoras de nitrógeno, hongos benéficos como Trichoderma, y controladores biológicos. Se caracterizan por su interacción con procesos naturales, mejoran la absorción de nutrientes y controlan patógenos de forma natural.
   
   
       .titulo-sexto.color-secundario(data-aos='fade-right')
@@ -576,7 +576,7 @@
           img(src="@/assets/curso/Tema1/img26.png")
         .col-lg-7
           .row.justify-content-center
-            .col-lg-2.col-4.mb-3.col-md-3
+            .col-lg-2.col-4.mb-3.col-md-3.d-none.d-lg-block
               img(src="@/assets/curso/Tema1/img27.svg")
             .col-lg-10
               p La efectividad de los agroinsumos no depende únicamente de su calidad o tipo, sino de decisiones técnicas precisas sobre cuándo, cómo y cuánto aplicarlos. En agricultura urbana, donde los recursos son limitados y los márgenes de error son estrechos, la aplicación basada en criterios técnicos es la diferencia entre un cultivo productivo y uno que fracasa. Tres factores fundamentales determinan el éxito: la naturaleza específica de cada especie vegetal, el momento exacto en el ciclo productivo del cultivo, y las condiciones climáticas del momento. Ignorar cualquiera de estos criterios compromete la inversión, reduce la productividad y aumenta el riesgo de contaminación ambiental.
@@ -589,7 +589,7 @@
                 figure
                   img(src='@/assets/curso/Tema1/img28.svg', alt='Texto que describa la imagen')
             h4.text-center Tipo de cultivo
-            p.text-small.mb-0 Cada especie vegetal tiene requerimientos específicos de nutrientes que varían según sus características fisiológicas y su ciclo productivo. Las hortalizas de hoja tienen una mayor necesidad de nitrógeno para favorecer el desarrollo foliar y la calidad del producto. En cambio, los cultivos de fruto demandan mayor concentración de fósforo y potasio para garantizar la formación, desarrollo y calidad de los frutos.
+            p.mb-0 Cada especie vegetal tiene requerimientos específicos de nutrientes que varían según sus características fisiológicas y su ciclo productivo. Las hortalizas de hoja tienen una mayor necesidad de nitrógeno para favorecer el desarrollo foliar y la calidad del producto. En cambio, los cultivos de fruto demandan mayor concentración de fósforo y potasio para garantizar la formación, desarrollo y calidad de los frutos.
 
         .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="zoom-in-left")
           .tarjeta--boton.color-secu.p-4.w-100.h-100
@@ -598,7 +598,7 @@
                 figure
                   img(src='@/assets/curso/Tema1/img29.svg', alt='Texto que describa la imagen')
             h4.text-center Etapa de desarrollo
-            p.text-small.mb-0 Las necesidades de agroinsumos cambian significativamente a lo largo del ciclo productivo del cultivo. Durante la germinación se requiere bajo uso de insumos, permitiendo que la semilla desarrolle su propio vigor. En la etapa de crecimiento hay una alta demanda de nutrientes para construir estructura vegetal y masa foliar. Durante la producción, la aplicación se enfoca en nutrientes específicos que sostienen la formación y calidad del producto final.
+            p.mb-0 Las necesidades de agroinsumos cambian significativamente a lo largo del ciclo productivo del cultivo. Durante la germinación se requiere bajo uso de insumos, permitiendo que la semilla desarrolle su propio vigor. En la etapa de crecimiento hay una alta demanda de nutrientes para construir estructura vegetal y masa foliar. Durante la producción, la aplicación se enfoca en nutrientes específicos que sostienen la formación y calidad del producto final.
 
         .col-sm-6.col-lg-4.mb-4.mb-sm-0
           .tarjeta--boton.color-secu.p-4.w-100.h-100
@@ -607,9 +607,9 @@
                 figure
                   img(src='@/assets/curso/Tema1/img30.svg', alt='Texto que describa la imagen')
             h4.text-center Condiciones climáticas
-            p.text-small.mb-0 El clima influye significativamente en la efectividad de los  agroinsumos. Los factores clave a considerar son temperatura, humedad, lluvia y radiación solar. No se debe aplicar en horas de alta radiación solar, ya que el calor extremo reduce la efectividad del producto.  Tampoco se recomienda aplicar productos foliares antes de lluvias  fuertes, pues el agua puede lavar el agroquímico antes de su absorción por la planta.
+            p.mb-0 El clima influye significativamente en la efectividad de los  agroinsumos. Los factores clave a considerar son temperatura, humedad, lluvia y radiación solar. No se debe aplicar en horas de alta radiación solar, ya que el calor extremo reduce la efectividad del producto.  Tampoco se recomienda aplicar productos foliares antes de lluvias  fuertes, pues el agua puede lavar el agroquímico antes de su absorción por la planta.
 
-
+      separador
       #t_1_4.titulo-segundo.mb-4(data-aos="zoom-in-left")
         h2 1.4 Fundamentos de la siembra
   
@@ -634,9 +634,9 @@
         .row.mb-5.p-4.justify-content-center
           .col-lg-11
             ul.lista-ul
-              li
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                | #[b Siembra directa:] consiste en depositar la semilla directamente en el lugar definitivo donde se desarrollará la planta. No requiere trasplante posterior. Este método implica menor manipulación de la planta y reduce el estrés vegetal, lo que minimiza el riesgo de daño en las raíces. Se utiliza comúnmente en cultivos como cilantro, rábano y espinaca.
+                p.mb-0 #[b Siembra directa:] consiste en depositar la semilla directamente en el lugar definitivo donde se desarrollará la planta. No requiere trasplante posterior. Este método implica menor manipulación de la planta y reduce el estrés vegetal, lo que minimiza el riesgo de daño en las raíces. Se utiliza comúnmente en cultivos como cilantro, rábano y espinaca.
   
       .titulo-sexto.color-secundario(data-aos='fade-right')
         h5 Tabla 7.
@@ -666,9 +666,9 @@
         .row.mb-5.p-4.justify-content-center
           .col-lg-11
             ul.lista-ul
-              li
+              li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                | #[b Siembra en almácigos:] consiste en sembrar las semillas en un espacio reducido y controlado (bandejas, cajas o recipientes), para luego trasplantarlas al sitio definitivo. Este método permite mayor control de las condiciones ambientales y facilita la selección de las mejores plántulas antes del trasplante. Es especialmente útil en cultivos como tomate, lechuga y pimentón.
+                p.mb-0 #[b Siembra en almácigos:] consiste en sembrar las semillas en un espacio reducido y controlado (bandejas, cajas o recipientes), para luego trasplantarlas al sitio definitivo. Este método permite mayor control de las condiciones ambientales y facilita la selección de las mejores plántulas antes del trasplante. Es especialmente útil en cultivos como tomate, lechuga y pimentón.
   
       .titulo-sexto.color-secundario(data-aos='fade-right')
         h5 Tabla 8.
@@ -719,13 +719,13 @@
         .col-lg-8
           p La densidad y las distancias de siembra determinan la distribución de las plantas en el espacio disponible y son factores determinantes en el éxito productivo.
           ul.lista-ul.bg7.p-4
-            li
+            li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              | #[b Densidad de siembra:] se refiere a la cantidad de plantas por unidad de área o volumen. Una densidad de siembra adecuada optimiza el uso del espacio, regula la competencia entre plantas por luz, agua y nutrientes, y permite un buen rendimiento productivo. Una densidad muy baja desperdicia espacio y recursos, mientras que una densidad muy alta genera competencia excesiva y reduce el tamaño y calidad de los productos.
+              p.mb-0 #[b Densidad de siembra:] se refiere a la cantidad de plantas por unidad de área o volumen. Una densidad de siembra adecuada optimiza el uso del espacio, regula la competencia entre plantas por luz, agua y nutrientes, y permite un buen rendimiento productivo. Una densidad muy baja desperdicia espacio y recursos, mientras que una densidad muy alta genera competencia excesiva y reduce el tamaño y calidad de los productos.
           ul.lista-ul.bg6.p-4
-            li
+            li.d-flex.align-items-start
               i.fas.fa-angle-right2
-              | #[b Distancia de siembra:] es el espacio que se deja entre plantas individuales y entre líneas o filas de siembra. Las distancias varían significativamente según la especie vegetal, su tamaño final y sus requerimientos de luz y nutrientes. La siguiente tabla presenta ejemplos de distancias recomendadas para cultivos comunes en agricultura urbana.
+              p.mb-0 #[b Distancia de siembra:] es el espacio que se deja entre plantas individuales y entre líneas o filas de siembra. Las distancias varían significativamente según la especie vegetal, su tamaño final y sus requerimientos de luz y nutrientes. La siguiente tabla presenta ejemplos de distancias recomendadas para cultivos comunes en agricultura urbana.
         .col-lg-4.col-7.col-md-5
           img(src="@/assets/curso/Tema1/img34.svg")
       .titulo-sexto.color-secundario(data-aos='fade-right')
@@ -751,18 +751,18 @@
               td Tomate
               td 40 cm
               td 60 cm
-  
+      separador
       #t_1_5.titulo-segundo.mb-4(data-aos="zoom-in-left")
         h2 1.5 Condiciones edafoclimáticas
 
       p Las condiciones edafoclimáticas son los factores relacionados con el suelo (edáficos) y el clima (climáticos) que influyen directamente en el desarrollo y éxito del cultivo. En agricultura urbana, donde los espacios son controlados pero limitados, la evaluación y manejo adecuado de estas condiciones es fundamental para lograr cultivos sanos y productivos.
   
       .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-        .col-lg-9
+        .col-lg-10
           .tarjeta--container.row.mb-3
             .col-md.tarjeta.bg6.p-5
               .row.justify-content-center.mb-4
-                .col-4
+                .col-6.col-md-6.col-lg-4
                   figure
                     img(src='@/assets/curso/Tema1/img35.svg', alt='Texto que describa la imagen')          
               h3.text-center Factores edáficos
@@ -770,7 +770,7 @@
             
             .col-md.tarjeta.bg7.p-5
               .row.justify-content-center.mb-4
-                .col-4
+                .col-6.col-md-6.col-lg-4
                   figure
                     img(src='@/assets/curso/Tema1/img36.svg', alt='Texto que describa la imagen')          
               h3.text-center Factores climáticos

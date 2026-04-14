@@ -190,7 +190,7 @@
             .col-sm-12.col-lg-7.mb-4
               .titulo-icono
                 img.icono(src="@/assets/curso/Tema1/icono.svg")
-                h3 Postura ergonómica
+                h3.px-2 Postura ergonómica
             p Una postura adecuada reduce el riesgo de lesiones musculoesqueléticas. Las recomendaciones incluyen mantener espalda recta, flexionar rodillas al levantar peso y alternar manos y movimientos.
             
       .fondo01(data-aos="zoom-in-left")
@@ -200,7 +200,7 @@
               .col-sm-12.col-lg-7.mb-4
                 .titulo-icono
                   img.icono(src="@/assets/curso/Tema1/icono.svg")
-                  h3 Seguridad en el trabajo
+                  h3.px-2 Seguridad en el trabajo
               .col-lg-12
                 p La seguridad en el trabajo es un aspecto fundamental en las actividades de siembra, ya que permite prevenir accidentes, proteger la salud del operario y garantizar condiciones adecuadas durante el desarrollo de las labores agrícolas, especialmente en espacios urbanos donde existen riesgos adicionales.
   
@@ -345,7 +345,7 @@
               .col-sm-12.col-lg-5.mb-4
                 .titulo-icono
                   img.icono(src="@/assets/curso/Tema1/icono.svg")
-                  h3 Semillas
+                  h3.px-2 Semillas
               .col-lg-12
                 p Son el insumo base del proceso productivo.  
   

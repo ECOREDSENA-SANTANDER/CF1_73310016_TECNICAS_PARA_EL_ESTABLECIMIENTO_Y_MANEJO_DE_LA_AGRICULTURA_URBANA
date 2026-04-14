@@ -170,14 +170,14 @@ figcaption
   background-color: #EDF5D7
 .text-izq
   text-align: left !important
-.titulo-icono 
-  display: flex
-  align-items: center
-  border-bottom: 3px solid #e57373 /* línea roja */
-  padding-bottom: 0px
-  gap: 10px
+
 .acordion__header.mb-3.mb-md-4
   color: #ffff !important
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__texto 
+  color: #12263F !important
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__input input[type=range]
+  background: #2D5A27
+
 .tarjeta--boton 
   background-color: #FFF3CC
 .tarjeta--boton2
@@ -189,12 +189,33 @@ figcaption
 .tarjeta--boton4
   background-color: #EDF5D7
   border-radius: 20px
+
+
+
+.titulo-icono 
+  display: flex
+  align-items: center
+  gap: 10px
+
+
 .titulo-icono .icono 
   width: 78px
-  padding-bottom: -10px !important
+  padding-bottom: 0 /* ❌ elimina el negativo */
+  flex-shrink: 0
+
+
 .titulo-icono h3 
   font-weight: 700
-  margin: 0
+  margin: 0 0 0 -10px /* 👈 separa del icono */
+  padding-bottom: 6px
+  border-bottom: 3px solid #e57373
+  flex: 1
+
+
+
+
+
+
 .color-secu:hover 
   background-color: #FEE2E2 !important
 
@@ -295,3 +316,14 @@ figcaption
   background-color: #FFF3CC !important
   h3,
     color: #12263F
+
+/* Thumb (botón) */
+.tarjeta-audio__input input[type="range"]::-webkit-slider-thumb 
+  -webkit-appearance: none
+  height: 12px
+  width: 12px
+  background: #FCC100 !important
+  border-radius: 50%
+  margin-top: -5px 
+  cursor: pointer
+

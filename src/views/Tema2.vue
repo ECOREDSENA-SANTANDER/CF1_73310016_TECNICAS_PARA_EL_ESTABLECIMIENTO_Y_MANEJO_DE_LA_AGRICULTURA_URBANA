@@ -59,7 +59,7 @@
       .col-sm-12.col-lg-7.mb-3
         .titulo-icono
           img.icono(src="@/assets/curso/Tema1/icono.svg")
-          h3 Drenaje adecuado
+          h3.px-2 Drenaje adecuado
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.mb-4
         img(src="@/assets/curso/Tema2/img04.png")
@@ -94,7 +94,7 @@
       .col-sm-12.col-lg-7.mb-3
         .titulo-icono
           img.icono(src="@/assets/curso/Tema1/icono.svg")
-          h3 Riego controlado
+          h3.px-2 Riego controlado
 
     .bloque-texto-g.bloque-texto-g--inverso.bg111.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left").mb-4
       .bloque-texto-g__img(
@@ -312,7 +312,7 @@
       .col-sm-12.col-lg-7.mb-3
         .titulo-icono
           img.icono(src="@/assets/curso/Tema1/icono.svg")
-          h3 Aplicación en agricultura urbana
+          h3.px-2 Aplicación en agricultura urbana
     p En la agricultura urbana, esta relación debe gestionarse de manera más precisa, ya que no se cuenta con condiciones naturales ideales y es necesario intervenir para optimizar el sistema productivo.
     
     TabsA.color-acento-botones(data-aos="zoom-in-left").mb-4

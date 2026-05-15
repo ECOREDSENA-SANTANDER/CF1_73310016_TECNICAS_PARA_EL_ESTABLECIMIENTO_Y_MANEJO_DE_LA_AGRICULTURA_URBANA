@@ -684,7 +684,7 @@ export default {
       mensaje_final_aprobado:
         'Ha superado la actividad y demuestra sólidos conocimientos sobre los fundamentos para la siembra y establecimiento de cultivos urbanos.',
       mensaje_final_reprobado:
-        'Mensajee cuando el porcentaje de respuestas correctas es inferior al 70 %	No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'Mensaje cuando el porcentaje de respuestas correctas es inferior al 70 %	No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

@@ -53,9 +53,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
         {
           id: 2,
@@ -85,9 +85,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
         {
           id: 3,
@@ -117,9 +117,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
         {
           id: 4,
@@ -149,9 +149,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
         {
           id: 5,
@@ -181,9 +181,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -214,9 +214,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -247,9 +247,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -280,9 +280,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -313,9 +313,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -346,9 +346,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -379,9 +379,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -412,9 +412,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -445,9 +445,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -478,9 +478,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -511,9 +511,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -544,9 +544,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -577,9 +577,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -610,9 +610,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -643,9 +643,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
 
         {
@@ -676,9 +676,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia un adecuado dominio de los conceptos relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se evidencia un adecuado dominio de los conceptos relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
           mensaje_incorrecto:
-            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los fundamentos para la siembra y establecimiento de cultivos urbanos.',
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con los Fundamentos para la siembra y establecimiento de cultivos urbanos.',
         },
       ],
       mensaje_final_aprobado:

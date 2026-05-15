@@ -151,7 +151,7 @@
             .row
               .col-md-8.mb-4.mb-md-0
                 h3 Desinfección para evitar contaminación
-                p La desinfección es fundamental para prevenir enfermedades en los cultivos, especialmente en herramientas de corte y antes de trabajar con nuevas plantas. Algunos métodos son la solución de hipoclorito (1-2%) o alcohol al 70%.
+                p La desinfección es fundamental para prevenir enfermedades en los cultivos, especialmente en herramientas de corte y antes de trabajar con nuevas plantas. Algunos métodos son la solución de hipoclorito (1-2 %) o alcohol al 70 %.
               .col-md-4
                 figure
                   img(src='@/assets/curso/Tema1/img003.svg', alt='Texto que describa la imagen')
@@ -171,7 +171,7 @@
               .col-lg-2
                 img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/Tema1/img06.svg', alt='')
               .col-lg-12
-                p La forma en que se utilizan las herramientas determina tanto la calidad del trabajo como la seguridad del operario. Un uso inadecuado no solo reduce la eficiencia, sino que incrementa significativamente el riesgo de accidentes y lesiones. En espacios urbanos, donde conviven múltiples usuarios y a menudo hay presencia de niños, los protocolos de seguridad adquieren mayor relevancia. El manejo correcto de herramientas abarca cuatro dimensiones fundamentales: el uso específico según la función de cada herramienta, la adopción de posturas ergonómicas que protejan la salud del operario, la utilización de equipos de protección personal (EPP) adecuados, y la organización segura del espacio de trabajo.
+                p La forma en que se utilizan las herramientas determina tanto la calidad del trabajo como la seguridad del operario. Un uso inadecuado no solo reduce la eficiencia, sino que incrementa significativamente el riesgo de accidentes y lesiones. En espacios urbanos, donde conviven múltiples usuarios y a menudo hay presencia de niños, los protocolos de seguridad adquieren mayor relevancia. El manejo correcto de herramientas abarca cuatro dimensiones fundamentales: el uso específico según la función de cada herramienta, la adopción de posturas ergonómicas que protejan la salud del operario, la utilización de Equipos de Protección Personal (EPP) adecuados, y la organización segura del espacio de trabajo.
 
 
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
@@ -442,7 +442,7 @@
             ul.lista-ul
               li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                p.mb-0 #[b Agroinsumos orgánicos:] son aquellos provenientes de fuentes naturales, sin procesos químicos industriales, que contribuyen a mejorar la fertilidad del sustrato y la salud del cultivo. Los principales tipos incluyen compost, humus de lombriz, bocashi (abono fermentado) y extractos vegetales. Se caracterizan por una liberación lenta de nutrientes, mejoran la estructura del sustrato y favorecen la actividad microbiana.
+                p.mb-0 #[b Agroinsumos orgánicos:] son aquellos provenientes de fuentes naturales, sin procesos químicos industriales, que contribuyen a mejorar la fertilidad del sustrato y la salud del cultivo. Los principales tipos incluyen compost, humus de lombriz, #[em bocashi] (abono fermentado) y extractos vegetales. Se caracterizan por una liberación lenta de nutrientes, mejoran la estructura del sustrato y favorecen la actividad microbiana.
       .titulo-sexto.color-secundario(data-aos='fade-right')
         h5 Tabla 4.
         span Ventajas y limitaciones de agroinsumos orgánicos
@@ -468,7 +468,7 @@
             ul.lista-ul
               li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                p.mb-0 #[b Agroinsumos químicos (fertilizantes sintéticos):] son productos elaborados industrialmente para suministrar nutrientes o controlar plagas y enfermedades. Los principales tipos incluyen fertilizantes con macronutrientes primarios (Nitrógeno, Fósforo y Potasio), insecticidas y fungicidas. Se caracterizan por una alta concentración de nutrientes, una acción rápida y fácil dosificación.
+                p.mb-0 #[b Agroinsumos químicos (fertilizantes sintéticos):] son productos elaborados industrialmente para suministrar nutrientes o controlar plagas y enfermedades. Los principales tipos incluyen fertilizantes con macronutrientes primarios (nitrógeno, fósforo y potasio), insecticidas y fungicidas. Se caracterizan por una alta concentración de nutrientes, una acción rápida y fácil dosificación.
   
       .titulo-sexto.color-secundario(data-aos='fade-right')
         h5 Tabla 5.
@@ -496,7 +496,7 @@
             ul.lista-ul
               li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                p.mb-0 #[b Agroinsumos biológicos (biofertilizantes):] son productos basados en microorganismos o sustancias naturales que favorecen el crecimiento y protección de las plantas. Los principales tipos incluyen biofertilizantes con bacterias fijadoras de nitrógeno, hongos benéficos como Trichoderma, y controladores biológicos. Se caracterizan por su interacción con procesos naturales, mejoran la absorción de nutrientes y controlan patógenos de forma natural.
+                p.mb-0 #[b Agroinsumos biológicos (biofertilizantes):] son productos basados en microorganismos o sustancias naturales que favorecen el crecimiento y protección de las plantas. Los principales tipos incluyen biofertilizantes con bacterias fijadoras de nitrógeno, hongos benéficos como #[em Trichoderma], y controladores biológicos. Se caracterizan por su interacción con procesos naturales, mejoran la absorción de nutrientes y controlan patógenos de forma natural.
   
   
       .titulo-sexto.color-secundario(data-aos='fade-right')
@@ -693,7 +693,11 @@
               td Permite uniformidad inicial
               td Control sanitario mejorado
               td Mayor tiempo y mano de obra
-  
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema1/mundo.svg")
+            h3.bg1.py-2.w-card-text Profundidad
       .row.justify-content-center.mb-3
         .col-lg-5.mb-4.col-md-10
           img(src="@/assets/curso/Tema1/img32.png")
@@ -707,7 +711,7 @@
 
       .cajon.color-secundario.p-4.mb-4
         h5 Errores comunes en la profundidad
-        p si la semilla se coloca demasiado superficial, se presenta desecación o pérdida de la semilla por falta de contacto con humedad. Si se coloca demasiado profunda, dificulta la emergencia de la plántula porque agota las reservas energéticas de la semilla antes de alcanzar la superficie.
+        p Si la semilla se coloca demasiado superficial, se presenta desecación o pérdida de la semilla por falta de contacto con humedad. Si se coloca demasiado profunda, dificulta la emergencia de la plántula porque agota las reservas energéticas de la semilla antes de alcanzar la superficie.
   
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -791,12 +795,12 @@
             tr.bg4
               td Temperatura
               td Climático
-              td 18-25°C
+              td 18 - 25 ° C
               td Germinación lenta, estrés vegetal, ralentización metabólica
             tr.bg5
               td pH del suelo
               td Edáfico
-              td 6.0-7.0
+              td 6.0 - 7.0
               td Deficiencias nutricionales, toxicidad de elementos, absorción limitada de nutrientes
             tr.bg4
               td Humedad relativa
@@ -806,7 +810,7 @@
             tr.bg5
               td Materia orgánica
               td Edáfico
-              td 2-3%
+              td 2 - 3 %
               td Baja fertilidad, retención limitada de agua, deficiencia de nutrientes disponibles
             tr.bg4
               td Radiación solar
@@ -817,7 +821,7 @@
 
       .cajon.color-secundario.p-4.mb-4(data-aos="zoom-in-left")
         h5 Importancia para el cultivo
-        p las condiciones edafoclimáticas determinan el éxito del cultivo y la productividad del sistema. Un manejo inadecuado de estos factores resulta en plantas débiles, enfermedades, bajo rendimiento y pérdidas económicas. En agricultura urbana, donde el control de estas variables es parcial pero posible, la evaluación diagnóstica antes de sembrar y el monitoreo continuo durante el ciclo productivo son prácticas fundamentales que garantizan cultivos sanos, productivos y sostenibles.
+        p Las condiciones edafoclimáticas determinan el éxito del cultivo y la productividad del sistema. Un manejo inadecuado de estos factores resulta en plantas débiles, enfermedades, bajo rendimiento y pérdidas económicas. En agricultura urbana, donde el control de estas variables es parcial pero posible, la evaluación diagnóstica antes de sembrar y el monitoreo continuo durante el ciclo productivo son prácticas fundamentales que garantizan cultivos sanos, productivos y sostenibles.
 
 
 

@@ -134,7 +134,7 @@
     .fondo01(data-aos="zoom-in-left")
         .row.mb-5.p-4.justify-content-center
           .col-lg-11
-            p #[b #[em Pódcast:]] Para profundizar en las técnicas de siembra directa y almácigos, se recomienda escuchar el siguiente podcast donde se discute de forma práctica cuándo utilizar cada técnica, cuáles son sus ventajas y cómo elegir la más adecuada según el cultivo y el espacio disponible. 
+            p #[b Pódcast:] Para profundizar en las técnicas de siembra directa y almácigos, se recomienda escuchar el siguiente podcast donde se discute de forma práctica cuándo utilizar cada técnica, cuáles son sus ventajas y cómo elegir la más adecuada según el cultivo y el espacio disponible. 
     .row.justify-content-center.mb-4
       .col-lg-12
         img.w-100(
@@ -146,7 +146,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100.bg14
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-contenido(
-              texto="<i>Pódcast</i>: Para profundizar en las técnicas de siembra directa y almácigos"
+              texto="Pódcast: Para profundizar en las técnicas de siembra directa y almácigos"
               :audio="require('@/assets/curso/Tema2/podcast.svg')"
             )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -164,7 +164,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
       .row(titulo="Profundidad de siembra")
         .col-md-6.mb-2.mb-md-0
-          p La profundidad depende del tipo de cultivo y del tamaño del contenedor disponible. Seguir la regla general de 2–3 veces el tamaño de la semilla es fundamental, especialmente en contenedores pequeños donde el espacio vertical es limitado. Evitar siembras muy profundas en contenedores pequeños garantiza que la plántula emerja correctamente sin agotar las reservas de la semilla.
+          p La profundidad depende del tipo de cultivo y del tamaño del contenedor disponible. Seguir la regla general de 2 – 3 veces el tamaño de la semilla es fundamental, especialmente en contenedores pequeños donde el espacio vertical es limitado. Evitar siembras muy profundas en contenedores pequeños garantiza que la plántula emerja correctamente sin agotar las reservas de la semilla.
         .col-md-6
           figure
             img(src='@/assets/curso/Tema2/img07.png', alt='Texto que describa la imagen')
@@ -386,7 +386,7 @@
                 .col-lg-12.mb-3
                   .tarjeta--boton3.p-4
                     h5 Invernaderos pequeños
-                    p Incluir ventilación lateral mediante aberturas en paredes y ventilación superior con ventiladores o aberturas cenitales. monitorear humedad relativa regularmente con higrómetro, manteniendo niveles entre 60 y 80%. Ajustar aberturas según condiciones climáticas para mantener circulación constante sin crear corrientes secas excesivas.
+                    p Incluir ventilación lateral mediante aberturas en paredes y ventilación superior con ventiladores o aberturas cenitales. monitorear humedad relativa regularmente con higrómetro, manteniendo niveles entre 60 % y 80 %. Ajustar aberturas según condiciones climáticas para mantener circulación constante sin crear corrientes secas excesivas.
              
                 
 

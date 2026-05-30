@@ -134,7 +134,7 @@
     .fondo01(data-aos="zoom-in-left")
         .row.mb-5.p-4.justify-content-center
           .col-lg-11
-            p #[b Pódcast:] Para profundizar en las técnicas de siembra directa y almácigos, se recomienda escuchar el siguiente podcast donde se discute de forma práctica cuándo utilizar cada técnica, cuáles son sus ventajas y cómo elegir la más adecuada según el cultivo y el espacio disponible. 
+            p Para profundizar en las técnicas de siembra directa y almácigos, se recomienda escuchar el siguiente podcast donde se discute de forma práctica cuándo utilizar cada técnica, cuáles son sus ventajas y cómo elegir la más adecuada según el cultivo y el espacio disponible. 
     .row.justify-content-center.mb-4
       .col-lg-12
         img.w-100(
@@ -146,7 +146,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100.bg14
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-contenido(
-              texto="Pódcast: Para profundizar en las técnicas de siembra directa y almácigos"
+              texto="Pódcast: técnicas de siembra directa y almácigos"
               :audio="require('@/assets/curso/Tema2/podcast.svg')"
             )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

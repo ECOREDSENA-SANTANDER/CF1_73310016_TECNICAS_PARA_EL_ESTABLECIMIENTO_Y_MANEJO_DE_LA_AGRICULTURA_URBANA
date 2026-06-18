@@ -147,7 +147,7 @@
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-contenido(
               texto="Pódcast: técnicas de siembra directa y almácigos"
-              :audio="require('@/assets/curso/Tema2/podcast.svg')"
+              :audio="require('@/assets/curso/Tema2/podcast.mp4')"
             )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.mt-3.mb-0

@@ -97,7 +97,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Mayor exposición a plagas',
+              texto: 'Mayor exposición a plagas.',
               esCorrecta: false,
             },
             {
@@ -386,7 +386,7 @@ export default {
 
         {
           id: 12,
-          texto: '¿Cuál es un agro insumo?',
+          texto: '¿Cuál es un agroinsumo?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -419,7 +419,7 @@ export default {
 
         {
           id: 13,
-          texto: 'Una buena práctica en el uso de agro insumos es:',
+          texto: 'Una buena práctica en el uso de agroinsumos es:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

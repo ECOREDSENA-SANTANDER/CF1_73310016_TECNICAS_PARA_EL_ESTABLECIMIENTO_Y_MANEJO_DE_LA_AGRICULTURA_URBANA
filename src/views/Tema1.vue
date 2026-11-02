@@ -31,7 +31,7 @@
       .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
         .col-lg-12
           img(src="@/assets/curso/Tema1/img02.png")
-      p Los equipos y herramientas de siembra varían según el contexto productivo y las necesidades del cultivo. En agricultura urbana, donde los espacios son limitados y el manejo debe ser preciso, la selección adecuada de herramientas es crítica para optimizar recursos y garantizar eficiencia. Existen tres categorías principales de herramientas que se adaptan a las diferentes labores de preparación y siembra: herramientas manuales para tareas generales, herramientas de precisión para siembras uniformes, y equipos de riego básico para garantizar la disponibilidad de agua durante el proceso productivo.
+      p Los equipos y herramientas de siembra varían según el contexto productivo y las necesidades del cultivo. En agricultura urbana, donde los espacios son limitados y el manejo debe ser preciso, la selección adecuada de herramientas es crítica para optimizar recursos y garantizar eficiencia. Existen tres categorías principales de herramientas que se adaptan a las diferentes labores de preparación y siembra: herramientas manuales para tareas generales, herramientas de precisión para siembras uniformes y equipos de riego básico para garantizar la disponibilidad de agua durante el proceso productivo.
   
       TabsA.color-acento-botones(data-aos="zoom-in-left").mb-4
         .tarjeta.color-acento-botones--borde.p-4(titulo="Herramientas manuales")
@@ -103,7 +103,7 @@
             .col-lg-2.col-6.mb-3.col-md-4
               img(src='@/assets/curso/Tema1/img03.svg', alt='')
             .col-lg-10
-              p Permiten realizar siembras más uniformes y controladas, como los sembradores manuales de semillas pequeñas, dosificadores, marcadores de profundidad. Además, estas herramientas garantizan uniformidad en la germinación, reducen desperdicio de semillas y mejoran la eficiencia del cultivo.
+              p Permiten realizar siembras más uniformes y controladas, como los sembradores manuales de semillas pequeñas, dosificadores y marcadores de profundidad. Además, estas herramientas garantizan uniformidad en la germinación, reducen desperdicio de semillas y mejoran la eficiencia del cultivo.
         .tarjeta.color-acento-botones--borde.p-4(titulo="Equipos de riego básico")(data-aos="zoom-in-left")
           .row.justify-content-center.align-items-center.p-4
             .col-lg-2.col-6.mb-3.col-md-4
@@ -171,7 +171,7 @@
               .col-lg-2
                 img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/Tema1/img06.svg', alt='')
               .col-lg-12
-                p La forma en que se utilizan las herramientas determina tanto la calidad del trabajo como la seguridad del operario. Un uso inadecuado no solo reduce la eficiencia, sino que incrementa significativamente el riesgo de accidentes y lesiones. En espacios urbanos, donde conviven múltiples usuarios y a menudo hay presencia de niños, los protocolos de seguridad adquieren mayor relevancia. El manejo correcto de herramientas abarca cuatro dimensiones fundamentales: el uso específico según la función de cada herramienta, la adopción de posturas ergonómicas que protejan la salud del operario, la utilización de Equipos de Protección Personal (EPP) adecuados, y la organización segura del espacio de trabajo.
+                p La forma en que se utilizan las herramientas determina tanto la calidad del trabajo como la seguridad del operario. Un uso inadecuado no solo reduce la eficiencia, sino que incrementa significativamente el riesgo de accidentes y lesiones. En espacios urbanos, donde conviven múltiples usuarios y a menudo hay presencia de niños, los protocolos de seguridad adquieren mayor relevancia. El manejo correcto de herramientas abarca cuatro dimensiones fundamentales: el uso específico según la función de cada herramienta, la adopción de posturas ergonómicas que protejan la salud del operario, la utilización de equipos de protección personal (EPP) adecuados, y la organización segura del espacio de trabajo.
 
 
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
@@ -309,7 +309,7 @@
         
       .cajon.color-secundario.p-4.mb-4(data-aos="zoom-in-left")
         h5 Recomendación
-        p se recomienda una mezcla de 40 % tierra + 40 % compost + 20 % material que facilite la aireación, ajustada según el cultivo.
+        p Se recomienda una mezcla de 40 % tierra + 40 % compost + 20 % material que facilite la aireación, ajustada según el cultivo.
       
       .row.justify-content-center.mb-1(data-aos="zoom-in-left")
         .col-lg-3.col-7.mb-3.col-md-5
@@ -563,7 +563,7 @@
                   img(src="@/assets/curso/Tema1/img25.svg", alt="alt").img100
               .col.text-white
                 h5 Protección del medio ambiente
-                p El manejo adecuado de agroinsumos minimiza impactos negativos. Por esto no se debe aplicar en exceso, se debe evitar vertimientos en fuentes de agua, disponer adecuadamente los envases y aplicar en horarios apropiados cuando las condiciones sean óptimas.
+                p El manejo adecuado de agroinsumos minimiza impactos negativos. Por esto no se debe aplicar en exceso, se deben evitar los vertimientos en fuentes de agua, disponer adecuadamente los envases y aplicar en horarios apropiados cuando las condiciones sean óptimas.
   
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
@@ -795,12 +795,12 @@
             tr.bg4
               td Temperatura
               td Climático
-              td 18 - 25 ° C
+              td 18-25 °C
               td Germinación lenta, estrés vegetal, ralentización metabólica
             tr.bg5
               td pH del suelo
               td Edáfico
-              td 6.0 - 7.0
+              td 6,0-7,0
               td Deficiencias nutricionales, toxicidad de elementos, absorción limitada de nutrientes
             tr.bg4
               td Humedad relativa

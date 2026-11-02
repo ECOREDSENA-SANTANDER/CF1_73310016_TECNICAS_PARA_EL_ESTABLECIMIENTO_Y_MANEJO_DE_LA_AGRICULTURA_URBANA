@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-11.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="Diagrama de flujo titulado “Fundamentos para la siembra y establecimiento de cultivos urbanos”. Del título principal se desprenden dos ramas. En la rama izquierda aparece el subtítulo “Fundamentos para la preparación de la siembra”, seguido en secuencia por los temas: Equipos y herramientas de siembra, Insumos agrícolas, Agroinsumos, Fundamentos de la siembra y Condiciones edafoclimáticas. En la rama derecha aparece el subtítulo “Establecimiento del cultivo en contenedores”, seguido de Siembra en agricultura urbana, con los subtemas técnicas y profundidad, densidad y distancia; luego Línea de siembra, con los subtemas técnicas de trazado, técnicas de marcación, criterios de orientación y ventilación; y finalmente Relación suelo-clima-cultivo, con los subtemas aplicación en agricultura urbana, control de sombra, manejo del riego y control de ventilación.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

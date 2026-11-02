@@ -164,7 +164,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-4
       .row(titulo="Profundidad de siembra")
         .col-md-6.mb-2.mb-md-0
-          p La profundidad depende del tipo de cultivo y del tamaño del contenedor disponible. Seguir la regla general de 2 – 3 veces el tamaño de la semilla es fundamental, especialmente en contenedores pequeños donde el espacio vertical es limitado. Evitar siembras muy profundas en contenedores pequeños garantiza que la plántula emerja correctamente sin agotar las reservas de la semilla.
+          p La profundidad depende del tipo de cultivo y del tamaño del contenedor disponible. Seguir la regla general de 2 a 3 veces el tamaño de la semilla es fundamental, especialmente en contenedores pequeños donde el espacio vertical es limitado. Evitar siembras muy profundas en contenedores pequeños garantiza que la plántula emerja correctamente sin agotar las reservas de la semilla.
         .col-md-6
           figure
             img(src='@/assets/curso/Tema2/img07.png', alt='Texto que describa la imagen')
@@ -237,7 +237,7 @@
             ul.lista-ul
               li.d-flex.align-items-start
                 i.fas.fa-angle-right2
-                p.mb-0 #[b Uso de estacas o palillos:] se clavan en el sustrato para marcar el exacto donde irá cada semilla o plántula. Evita errores en la ubicación y es rápido de implementar.  
+                p.mb-0 #[b Uso de estacas o palillos:] se clavan en el sustrato para marcar el punto exacto donde irá cada semilla o plántula. Evita errores en la ubicación y es rápido de implementar.  
               li.d-flex.align-items-start
                 i.fas.fa-angle-right2
                 p.mb-0 #[b Marcadores de profundidad:] herramientas especiales que indican la profundidad correcta según el cultivo. Facilita el trabajo y reduce variabilidad. 
@@ -369,7 +369,7 @@
                 .col-lg-12.mb-3
                   .tarjeta--boton3.p-4
                     h5 ✓ Recomendaciones para riego adecuado
-                    p Monitorear el sustrato regularmente insertando el dedo 2 centímetros para evaluar humedad. El riego debe ser diario en clima cálido y cada 2 a 3 días en clima templado. Regar preferentemente en horas tempranas de la mañana permite que la planta absorba agua antes del calor del día y reduce pérdidas por evaporación. Usar métodos eficientes como riego por goteo que minimiza pérdida de agua, regadera manual que permite control preciso, o pulverización para plántulas delicadas. evitar riego superficial que moja solo la superficie sin humedecer el sustrato completamente.
+                    p Monitorear el sustrato regularmente insertando el dedo 2 centímetros para evaluar humedad. El riego debe ser diario en clima cálido y cada 2 a 3 días en clima templado. Regar preferentemente en horas tempranas de la mañana permite que la planta absorba agua antes del calor del día y reduce pérdidas por evaporación. Usar métodos eficientes como riego por goteo que minimiza pérdida de agua, regadera manual que permite control preciso, o pulverización para plántulas delicadas. Evitar riego superficial que moja solo la superficie sin humedecer el sustrato completamente.
               
               .row
                 .col-md-12.mb-4.mb-md-0

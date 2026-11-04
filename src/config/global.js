@@ -206,28 +206,19 @@ export default {
   referencias: [
     {
       referencia:
-        'Alcaldía Mayor de Bogotá. (s. f.). Cartilla técnica: Agricultura urbana. Secretaría de Gobierno.',
-      link: '',
+        'Alcaldía Mayor de Bogotá. (2007). Cartillas técnicas: Agricultura urbana. Jardín Botánico de Bogotá José Celestino Mutis.',
     },
     {
       referencia:
-        'Ambientum. (2025). Guía básica de agricultura urbana: Cultiva en la ciudad. Ambientum.',
-      link: '',
+        'Ambientum Portal Ambiental. (2025). Guía básica de agricultura urbana: Cultiva en la ciudad.',
     },
     {
       referencia:
         'Lara García, E. H., Herrera Guzmán, E. G., Cepeda Valencia, J., & Ramírez Caballero, J. E. (2022). Prácticas para establecer y manejar tu huerta: Una guía para agricultoras y agricultores urbanos y periurbanos. Jardín Botánico de Bogotá José Celestino Mutis; Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura.',
-      link: '',
     },
     {
       referencia:
-        'Ministerio de Agricultura y Desarrollo Rural. (2018). Guía técnica para cultivos en espacios urbanos. Dirección de Innovación y Tecnología.',
-      link: '',
-    },
-    {
-      referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Agricultura urbana y periurbana. FAO.',
-      link: '',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). La agricultura urbana y periurbana.',
     },
   ],
   creditos: [
